@@ -1,4 +1,5 @@
 const config = {
+	darkMode: 'class',
 	mode: "jit",
 	purge: [
 		"./src/**/*.{html,js,svelte,ts}",
