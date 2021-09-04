@@ -2,9 +2,9 @@
 	"name": "~TODO~",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev -p 4200",
+		"dev": "svelte-kit dev -p 4200 --host",
 		"build": "svelte-kit build",
-		"preview": "svelte-kit preview",
+		"preview": "svelte-kit preview -p 4200 --host",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
